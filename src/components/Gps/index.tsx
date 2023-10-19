@@ -7,7 +7,7 @@ import { View, Text, StyleSheet } from "react-native";
 const Gps: React.FC = () => {
 	return (
 		<View style={styles.container}>
-			<Text>Gps</Text>
+			<Text style={styles.text}>Gps</Text>
 		</View>
 	);
 };
@@ -20,7 +20,6 @@ const styles = StyleSheet.create({
 	},
 	text: {
 		fontSize: 20,
-		fontWeight: "bold",
 	},
 });
 
